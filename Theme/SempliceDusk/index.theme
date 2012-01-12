@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.40
+Encoding=UTF-8
+Name=SempliceDusk
+Type=X-GNOME-Metatheme
+
+[X-GNOME-Metatheme]
+GtkTheme=SempliceDusk
+IconTheme=Faenza-Darkest
+CursorTheme=DMZ-White
+ButtonLayout=close,minimize,maximize:menu

@@ -1,0 +1,28 @@
+#!/bin/bash
+
+#
+# Wallpaper resizer: the coolest resizer script, that use imagemagick to resize the Semplice's wallpapers! \o\ \o/ /o/
+# IS COOOOOOOOOOOOOOOOOOOL!!!!
+# Copyright (C) 2009 The Semplice Linux Team. All rights reserved. 8)
+# Released under the terms of the GNU GPL license, version 3 or later.
+#
+
+# This is a script that will be called by debian/rules, so don't show help and other things...
+
+complete="$1"
+dir="`dirname $complete`"
+wallname="`basename $complete`"
+
+echo "-- Wallpaper resizer: converting $wallname"
+
+resolutions="800x600 1024x768 1024x600 1280x1024"
+partida="1680x1050"
+
+for wall in $resolutions; do
+ _wall=${complete/"$partida"/"$wall"}
+ echo "+Converting from $partida to $wall..."
+ convert -gravity Center -crop $wall+0+0 $complete $_wall
+done
+
+
+echo "-- Done"

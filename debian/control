@@ -1,0 +1,41 @@
+Source: semplice-artwork
+Section: graphics
+Priority: optional
+Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
+#Build-Depends: bash, imagemagick, debhelper (>= 7)
+Build-Depends: bash, debhelper (>= 7)
+Standards-Version: 3.9.2
+Homepage: http://launchpad.net/semplice
+
+Package: semplice-artwork
+Architecture: all
+Depends: semplice-artwork-wallpapers, semplice-artwork-theme, semplice-artwork-gdm3
+Description: Semplice System Artwork metapackage
+ This package depends on the default artwork
+ of the Semplice Project.
+
+Package: semplice-artwork-wallpapers
+Architecture: all
+Description: Semplice System default Wallpapers
+ This package contains the Semplice System default wallpapers.
+ Actually, it contains:
+  * pulse: the default wallpaper.
+
+Package: semplice-artwork-theme
+Architecture: all
+Depends: gnome-brave-icon-theme, gtk2-engines-equinox (>= 1.40), gnome-themes-standard, gtk2-engines-pixbuf, ttf-droid
+Recommends: dmz-cursor-theme
+Description: Semplice System GTK+ and openbox themes
+ This package contains:
+  * SempliceDusk: dark, default theme. Based on Equinox Evolution Dusk.
+    The Openbox theme is based on "Clearlooks" theme.
+    The GTK3 theme is based on "Adwaita" theme.
+  * Semplice: light, old default. Based on Equinox.
+    The Openbox theme is based on "Elementary" theme.
+
+Package: semplice-artwork-gdm3
+Architecture: all
+Depends: gnome-icon-theme-symbolic
+Recommends: gdm3
+Description: Semplice System GDM3 artwork
+ This package contains the artwork needed by GDM3.

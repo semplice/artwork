@@ -1,0 +1,215 @@
+semplice-artwork (2.10.0) pulse; urgency=low
+
+  * Removed -wallpapers-rocks package.
+  * New pulse alpha1 wallpaper.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Thu, 12 Jan 2012 19:30:51 +0100
+
+semplice-artwork (2.0.0) emily; urgency=low
+
+  * debian/control:
+     - semplice-artwork-gdm3: depend on gnome-icon-theme-symbolic.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sat, 24 Dec 2011 10:46:26 +0100
+
+semplice-artwork (1.14.2) emily; urgency=low
+
+  * debian/control:
+    - semplice-artwork-theme: depend on gnome-themes-standard.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Tue, 13 Dec 2011 18:40:14 +0100
+
+semplice-artwork (1.14.1) emily; urgency=low
+
+  * Theme/SempliceDusk: gtk3: some changes
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 09 Dec 2011 19:00:13 +0100
+
+semplice-artwork (1.14.0) emily; urgency=low
+
+  * debian/:
+    - changelog: migrated to DEP5 format;
+                 Added fields for the GTK3 theme;
+    - control: Standards-Version bumped to 3.9.2;
+               Changed Maintainer to match my new
+               GPG key;
+  * Theme/SempliceDusk: added GTK3 theme.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sun, 27 Nov 2011 21:01:09 +0100
+
+semplice-artwork (1.11.3) emily; urgency=low
+
+  * Synced GDM background.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Thu, 09 Jun 2011 16:27:38 +0200
+
+semplice-artwork (1.11.2) emily; urgency=low
+
+  * New upstream release:
+    - simpleplay now more darker.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Wed, 08 Jun 2011 13:05:57 +0200
+
+semplice-artwork (1.11.1) emily; urgency=low
+
+  * New upstream release:
+    - Wallpaper more "dark".
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Sun, 15 May 2011 13:09:35 +0200
+
+semplice-artwork (1.11.0) emily; urgency=low
+
+  * New upstream release:
+     - Added SempliceDusk theme, which is now the default.
+     - Make semplice-artwork-theme depend on ttf-droid.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Thu, 12 May 2011 21:59:23 +0200
+
+semplice-artwork (1.10.0.1) emily; urgency=low
+
+  * Fixed new wallpaper's file name.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Thu, 21 Apr 2011 12:36:14 +0200
+
+semplice-artwork (1.10.0) emily; urgency=low
+
+  * New release for emily:
+     - Removed GDM theme;
+     - Move rocks wallpaper to semplice-artwork-wallpapers-rocks;
+     - Ship emily default wallpaper in semplice-artwork-wallpapers.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Thu, 21 Apr 2011 12:24:24 +0200
+
+semplice-artwork (0.11.1) unstable; urgency=low
+
+  * Fixed gdm3 wallpaper path.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Thu, 21 Oct 2010 19:28:08 +0200
+
+semplice-artwork (0.11) unstable; urgency=low
+
+  * Added semplice-artwork-gdm3 package.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Thu, 21 Oct 2010 16:14:40 +0200
+
+semplice-artwork (0.10) unstable; urgency=low
+
+  * semplice-artwork-theme: depend too to gtk2-engines-pixbuf.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Thu, 07 Oct 2010 21:40:59 +0200
+
+semplice-artwork (0.9) unstable; urgency=low
+
+  * Modifed GTK+ theme for style fbpanel too;
+  * Splitted the wallpapers package to -wallpapers and -wallpapers-extra;
+  * Modified architecture of all packages from "any" to "all".
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Thu, 02 Sep 2010 21:14:17 +0200
+
+semplice-artwork (0.8-rocks1) unstable; urgency=low
+
+  * New upstream release (added the GTK+ theme)
+  * Splitted the package in: semplice-artwork-wallpapers, semplice-artwork-gdm, semplice-artwork-theme and semplice-artwork (metapackage)
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Fri, 23 Jul 2010 15:39:54 +0200
+
+semplice-artwork (0.7-rocks1) unstable; urgency=low
+
+  * New upstream release (Added semplice-backstripes and made it default)
+  * Updated to Standards-Version: 3.9.0
+  * Changed the rules to a simpler one
+    - Now the process of file copying will done reading semplice-artwork.install
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Sat, 17 Jul 2010 23:15:52 +0200
+
+semplice-artwork (0.6.1-rocks1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Wed, 09 Jun 2010 18:13:24 +0000
+
+semplice-artwork (0.6-rocks1) unstable; urgency=low
+
+  * New upstream release
+  * Changes in debian/rules:
+    - Added command to copy semplice-stripes (old default wallpaper) to /usr/share/backgrounds.
+    - Added command to copy semplice-default_1280x1024 to /usr/share/backgrounds
+    - Not use wallpaper_resizer anymore
+  * Changes in debian/control:
+    - Removed the Dependencies;
+    - Added to Depends: elementary-theme, elementary-icon-theme
+    - Updated package description
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Sat, 15 May 2010 21:56:54 +0000
+
+semplice-artwork (0.5-rocks2) unstable; urgency=low
+
+  * Changed debian/rules to use wallpaper_resizer on semplice-stars.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Sat, 06 Mar 2010 15:11:23 +0100
+
+semplice-artwork (0.5-rocks1) unstable; urgency=low
+
+  * New upstream release
+  * Added command to copy semplice-cubes (old default wallpaper) to /usr/share/backgrounds.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Sat, 06 Mar 2010 12:55:24 +0100
+
+semplice-artwork (0.4-rocks1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Sat, 30 Jan 2010 15:07:56 +0100
+
+semplice-artwork (0.3.1-rocks1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Fri, 01 Jan 2010 01:49:17 +0100
+
+semplice-artwork (0.3-rocks1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Wed, 23 Dec 2009 16:14:43 +0100
+
+semplice-artwork (0.2-rocks4) unstable; urgency=low
+
+  * Changes in debian/wallpaper_resizer:
+    - Added 1024x600 resolution.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Sun, 06 Dec 2009 15:27:04 +0100
+
+semplice-artwork (0.2-rocks3) unstable; urgency=low
+
+  * Changes in debian/control:
+    - Removed gnome-themes-extras and gnome-colors;
+    - Added gnome-brave-icon-theme and gtk2-engines-nodoka;
+    - Changed description
+  * Changes in debian/wallpaper_resizer:
+    - Removed 1600x1200 resolution.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Sat, 28 Nov 2009 22:02:59 +0100
+
+semplice-artwork (0.2-rocks2) unstable; urgency=low
+
+  * Changes in debian/control:
+    - Added bash and imagemagick to the Build-Depends.
+  * Changes in debian/rules:
+    - Added command to run wallpaper-resizer.
+  * Other:
+    - Added wallpaper_resizer.
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Fri, 27 Nov 2009 23:23:56 +0100
+
+semplice-artwork (0.2-rocks1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Fri, 27 Nov 2009 18:09:24 +0100
+
+semplice-artwork (0.1-rocks1) unstable; urgency=low
+
+  * Initial release
+
+ -- Eugenio (g7) <morarossa@gmail.com>  Wed, 11 Nov 2009 14:17:16 +0100

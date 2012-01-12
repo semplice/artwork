@@ -1,0 +1,74 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+# Sample debian/rules that uses debhelper.
+# This file was originally written by Joey Hess and Craig Small.
+# As a special exception, when this file is copied by dh-make into a
+# dh-make output file, you may use that output file without restriction.
+# This special exception was added by Craig Small in version 0.37 of dh-make.
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+
+build: 
+
+clean: 
+	dh_testdir
+	dh_testroot
+
+	dh_clean 
+
+install:
+	dh_testdir
+	dh_testroot
+	dh_clean -k 
+	dh_installdirs
+
+	# Add here commands to install the package into debian/semplice-artwork.
+	cp semplice-stars_1680x1050.png debian/semplice-artwork/usr/share/backgrounds
+	cp semplice-flames_1680x1050.png debian/semplice-artwork/usr/share/backgrounds
+	cp semplice-cubes_1680x1050.png debian/semplice-artwork/usr/share/backgrounds
+	cp semplice-stripes_1680x1050.png debian/semplice-artwork/usr/share/backgrounds
+	cp semplice-default_1680x1050.png debian/semplice-artwork/usr/share/backgrounds
+	cp semplice-default_1280x1024.png debian/semplice-artwork/usr/share/backgrounds
+	cp -R GDM debian/semplice-artwork/usr/share/gdm/themes/semplice
+	## Using wallpaper-resizer only on semplice-stars:
+	#debian/wallpaper_resizer `pwd`/debian/semplice-artwork/usr/share/backgrounds/semplice-stars_1680x1050.png
+
+# Build architecture-independent files here.
+binary-indep: install
+# We have nothing to do by default.
+
+# Build architecture-dependent files here.
+binary-arch: install
+	dh_testdir
+	dh_testroot
+	dh_installchangelogs 
+	dh_installdocs
+#	dh_installexamples
+#	dh_install
+#	dh_installmenu
+#	dh_installdebconf	
+#	dh_installlogrotate
+#	dh_installemacsen
+#	dh_installpam
+#	dh_installmime
+#	dh_python
+#	dh_installinit
+#	dh_installcron
+#	dh_installinfo
+#	dh_installman
+	dh_link
+	dh_strip
+	dh_compress
+	dh_fixperms
+#	dh_perl
+#	dh_makeshlibs
+	dh_installdeb
+#	dh_shlibdeps
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary: binary-indep binary-arch
+.PHONY: clean binary-indep binary-arch binary install configure
