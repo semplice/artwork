@@ -1,3 +1,9 @@
+semplice-artwork (2.12.0) pulse; urgency=low
+
+  * Updated wallpaper (and login manager background) to alpha2.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Mon, 30 Apr 2012 17:52:08 +0200
+
 semplice-artwork (2.10.1) pulse; urgency=low
 
   * Updated login manager background.
