@@ -9,7 +9,7 @@ Homepage: http://launchpad.net/semplice
 
 Package: semplice-artwork
 Architecture: all
-Depends: semplice-artwork-wallpapers, semplice-artwork-theme, semplice-artwork-gdm3
+Depends: semplice-artwork-wallpapers, semplice-artwork-theme, semplice-artwork-login
 Description: Semplice System Artwork metapackage
  This package depends on the default artwork
  of the Semplice Project.
@@ -23,19 +23,24 @@ Description: Semplice System default Wallpapers
 
 Package: semplice-artwork-theme
 Architecture: all
-Depends: gnome-brave-icon-theme, gtk2-engines-equinox (>= 1.40), gnome-themes-standard, gtk2-engines-pixbuf, ttf-droid
+Depends: gnome-brave-icon-theme, gtk2-engines-equinox (>= 1.40), gnome-themes-standard, gtk2-engines-pixbuf, gtk2-engines-murrine, gtk3-engines-unico, ttf-droid
 Recommends: dmz-cursor-theme
 Description: Semplice System GTK+ and openbox themes
  This package contains:
-  * SempliceDusk: dark, default theme. Based on Equinox Evolution Dusk.
+  * SempliceNight: default theme based on MediterraneanNight.
+  * SempliceDusk: dark, old default theme. Based on Equinox Evolution Dusk.
     The Openbox theme is based on "Clearlooks" theme.
     The GTK3 theme is based on "Adwaita" theme.
-  * Semplice: light, old default. Based on Equinox.
-    The Openbox theme is based on "Elementary" theme.
+
+Package: semplice-artwork-login
+Architecture: all
+Description: Semplice System Login Manager artwork
+ This package contains the wallpaper needed by
+ the login manager.
 
 Package: semplice-artwork-gdm3
 Architecture: all
-Depends: gnome-icon-theme-symbolic
+Depends: gnome-icon-theme-symbolic, semplice-artwork-login
 Recommends: gdm3
 Description: Semplice System GDM3 artwork
  This package contains the artwork needed by GDM3.

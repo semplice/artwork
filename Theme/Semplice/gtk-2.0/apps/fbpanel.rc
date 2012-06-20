@@ -1,4 +1,0 @@
-widget "*Panel*" style "theme-panel"
-widget "*.tclock.*" style "theme-panel"
-widget "*.taskbar.*" style "theme-panel"
-widget_class "*GtkBgbox*" style "theme-panel"

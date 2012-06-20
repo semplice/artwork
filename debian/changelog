@@ -1,3 +1,15 @@
+semplice-artwork (2.13.0) pulse; urgency=low
+
+  * Theme/: added SempliceNight, based on MediterraneanNight; removed Semplice.
+  * Updated wallpaper (and login manager background) to beta1.
+  * debian/:
+    - make -theme depend on murrine and unico;
+    - New package -login, replaces old -gdm3;
+    - Make -gdm3 depend on -login;
+    - semplice-artwork metapackage now depends on -login instead of -gdm3.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Wed, 20 Jun 2012 14:08:35 +0200
+
 semplice-artwork (2.12.1) pulse; urgency=low
 
   * Theme/SempliceDusk/gtk-3.0: updated to Adwaita 3.4. (fixes X crash)
