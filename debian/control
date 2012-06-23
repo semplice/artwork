@@ -34,6 +34,7 @@ Description: Semplice System GTK+ and openbox themes
 
 Package: semplice-artwork-login
 Architecture: all
+Conflicts: semplice-artwork-gdm3 (< 2.13.0)
 Description: Semplice System Login Manager artwork
  This package contains the wallpaper needed by
  the login manager.

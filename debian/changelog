@@ -1,3 +1,9 @@
+semplice-artwork (2.13.1) pulse; urgency=low
+
+  * debian/control: make semplice-artwork-login conflict with the old -gdm3.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sat, 23 Jun 2012 15:20:33 +0200
+
 semplice-artwork (2.13.0) pulse; urgency=low
 
   * Theme/: added SempliceNight, based on MediterraneanNight; removed Semplice.
