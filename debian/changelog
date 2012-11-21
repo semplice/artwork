@@ -1,3 +1,9 @@
+semplice-artwork (2.13.2) pulse; urgency=low
+
+  * Theme/SempliceNight: Fixed RadioButton display problems.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Wed, 21 Nov 2012 16:49:55 +0100
+
 semplice-artwork (2.13.1) pulse; urgency=low
 
   * debian/control: make semplice-artwork-login conflict with the old -gdm3.

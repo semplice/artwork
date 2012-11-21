@@ -803,12 +803,12 @@ widget "gtk-tooltip*"							style "tooltips"
 # If you have problems displaying the checkbox or radio buttons in gtk2
 # uncomment the two lines following (remove the # symbol of the beginning of the line)
 
-# widget_class "*<GtkCheckButton>*"				style "checkradio"
-# widget_class "*<GtkRadioButton>*"				style "checkradio"
+ widget_class "*<GtkCheckButton>*"				style "checkradio"
+ widget_class "*<GtkRadioButton>*"				style "checkradio"
 
 # and comment on these (put the # symbol at the beginning of the line)
- widget_class "*<GtkCheckButton>*"				style "checkbutton"
- widget_class "*<GtkRadioButton>*" 				style "radiobutton"
+# widget_class "*<GtkCheckButton>*"				style "checkbutton"
+# widget_class "*<GtkRadioButton>*" 				style "radiobutton"
 ##########################################################################
 
 
