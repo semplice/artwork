@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Eugenio Paolantonio (g7) <me@medesimo.eu>
 #Build-Depends: bash, imagemagick, debhelper (>= 7)
 Build-Depends: bash, debhelper (>= 7)
-Standards-Version: 3.9.2
+Standards-Version: 3.9.4
 Homepage: http://launchpad.net/semplice
 
 Package: semplice-artwork
@@ -23,14 +23,11 @@ Description: Semplice System default Wallpapers
 
 Package: semplice-artwork-theme
 Architecture: all
-Depends: gnome-brave-icon-theme, gtk2-engines-equinox (>= 1.40), gnome-themes-standard, gtk2-engines-pixbuf, gtk2-engines-murrine, gtk3-engines-unico, ttf-droid
+Depends: gnome-brave-icon-theme, gnome-themes-standard, gtk2-engines-pixbuf, gtk2-engines-murrine, gtk3-engines-unico, ttf-droid
 Recommends: dmz-cursor-theme
 Description: Semplice System GTK+ and openbox themes
  This package contains:
   * SempliceNight: default theme based on MediterraneanNight.
-  * SempliceDusk: dark, old default theme. Based on Equinox Evolution Dusk.
-    The Openbox theme is based on "Clearlooks" theme.
-    The GTK3 theme is based on "Adwaita" theme.
 
 Package: semplice-artwork-login
 Architecture: all
