@@ -14,7 +14,7 @@
    height="20"
    id="svg5435"
    version="1.1"
-   inkscape:version="0.48.2 r9819"
+   inkscape:version="0.48.3.1 r9886"
    sodipodi:docname="scale-slider-marks-below-horizontal-insensitive.svg">
   <defs
      id="defs5437">
@@ -133,7 +133,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="11.197802"
-     inkscape:cx="6.8611379"
+     inkscape:cx="-26.798644"
      inkscape:cy="16"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -141,7 +141,7 @@
      inkscape:document-units="px"
      inkscape:window-width="1145"
      inkscape:window-height="847"
-     inkscape:window-x="77"
+     inkscape:window-x="76"
      inkscape:window-y="66"
      inkscape:window-maximized="0" />
   <metadata
@@ -163,7 +163,7 @@
      transform="translate(0,-12)">
     <path
        inkscape:connector-curvature="0"
-       style="fill:#eeeeee;fill-opacity:1;stroke:#bcbcbc;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;enable-background:new"
+       style="fill:#d2d2d2;fill-opacity:1;stroke:#aaaaaa;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;enable-background:new"
        d="m 7.3946185,31.499978 1.042601,-0.01742 7.0627815,-8.932969 0,-7.816348 C 15.500001,13.496026 14.54,12.5 13.347534,12.5 l -10.6950674,0 c -1.1924665,0 -2.15246658,0.996026 -2.15246658,2.233242 l 0,7.816348 6.89461848,8.950411 z"
        id="path5960"
        sodipodi:nodetypes="cccccccccc" />

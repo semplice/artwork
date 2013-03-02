@@ -14,8 +14,8 @@
    height="16"
    id="svg5435"
    version="1.1"
-   inkscape:version="0.48.1 r9760"
-   sodipodi:docname="scale-slider-marks-below-vertical.svg">
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="scale-slider-marks-below-vertical-insensitive.svg">
   <defs
      id="defs5437">
     <linearGradient
@@ -176,17 +176,17 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="11.197802"
-     inkscape:cx="-0.16388645"
+     inkscape:cx="24.818449"
      inkscape:cy="16"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
-     inkscape:window-width="1280"
-     inkscape:window-height="743"
-     inkscape:window-x="0"
-     inkscape:window-y="26"
-     inkscape:window-maximized="1" />
+     inkscape:window-width="929"
+     inkscape:window-height="713"
+     inkscape:window-x="830"
+     inkscape:window-y="150"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata5440">
     <rdf:RDF>
@@ -195,7 +195,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -206,7 +206,7 @@
      transform="translate(0,-16)">
     <path
        inkscape:connector-curvature="0"
-       style="fill:#f4f4f2;fill-opacity:1;stroke:#bcbfb7;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;enable-background:new"
+       style="fill:#d2d2d2;fill-opacity:1;stroke:#aaaaaa;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;display:inline;enable-background:new"
        d="m 19.499978,24.605381 -0.01742,-1.042601 -8.932969,-7.062781 -7.816348,0 C 1.496026,16.499999 0.5,17.46 0.5,18.652466 l 0,10.695067 C 0.5,30.54 1.496026,31.5 2.733242,31.5 l 7.816348,0 8.950411,-6.894619 z"
        id="path5960"
        sodipodi:nodetypes="cccccccccc" />

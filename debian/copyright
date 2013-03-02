@@ -1,8 +1,8 @@
 Format: http://www.debian.org/doc/copyright-format/1.0
-Source: https://code.launchpad.net/~semplice-team/semplice/semplice-artwork-emily
+Source: https://github.com/semplice/artwork
 
 Files: *
-Copyright: Copyright 2009-11 Semplice Project
+Copyright: Copyright 2009-2013 Semplice Project
 License: GPL-3+
  This program is free software; you can redistribute it
  and/or modify it under the terms of the GNU General Public
@@ -26,7 +26,7 @@ License: GPL-3+
  `/usr/share/common-licenses/GPL-3'.
 
 Files: debian/*
-Copyright: Copyright 2009-11 Eugenio Paolantonio <me@medesimo.eu>
+Copyright: Copyright 2009-2013 Eugenio Paolantonio <me@medesimo.eu>
 License: GPL-3+
  This program is free software; you can redistribute it
  and/or modify it under the terms of the GNU General Public
@@ -49,44 +49,53 @@ License: GPL-3+
  License version 2 can be found in the file
  `/usr/share/common-licenses/GPL-3'.
 
-Files: Theme/SempliceDusk/gtk-3.0
-Copyright: Copyright (C) 2011  Eugenio Paolantonio <me@medesimo.eu>
-           Copyright (C) 2010  Aron Xu <aronxu@gnome.org>
-           Copyright (C) 2010  A S Alam <aalam@users.sf.net>
-           Copyright (C) 2010  Carlos Garnacho <carlosg@gnome.org>
-           Copyright (C) 2010  Daniel Nylander <po@danielnylander.se>
-           Copyright (C) 2010  Fran Diéguez <fran.dieguez@mabishu.com>
-           Copyright (C) 2010  Gheyret T.Kenji <gheyret@gmail.com>
-           Copyright (C) 2010  Ivar Smolin <okul@linux.ee>
-           Copyright (C) 2010  Jakub Steiner <jimmac@gmail.com>
-           Copyright (C) 2010  Jorge González <jorgegonz@svn.gnome.org>
-           Copyright (C) 2010  Kenneth Nielsen <k.nielsen81@gmail.com>
-           Copyright (C) 2010  Kjartan Maraas <kmaraas@gnome.org>
-           Copyright (C) 2010  Kris Thomsen <lakristho@gmail.com>
-           Copyright (C) 2010  Lapo Calamandrei <calamandrei@gmail.com>
-           Copyright (C) 2010  Lucian Adrian Grijincu <lucian.grijincu@gmail.com>
-           Copyright (C) 2010  Matej Urbančič <mateju@svn.gnome.org>
-           Copyright (C) 2010  Matthias Clasen <mclasen@redhat.com>
-           Copyright (C) 2010  Priit Laes <plaes@plaes.org>
-           Copyright (C) 2010  Theodore Dimitriadis <liakoni@gmail.com>
-           Copyright (C) 2010  Theppitak Karoonboonyanan <thep@linux.thai.net>
-           Copyright (C) 2010  William Jon McCann <jmccann@redhat.com>
-           Copyright (C) 2010  Yaron Shahrabani <sh.yaron@gmail.com>
-           Copyright (C) 2010  Hylke Bons
-License: LGPL-2.1+
- This library is free software; you can redistribute it and/or modify it
- under the terms of the GNU Lesser General Public License as published by the
- Free Software Foundation; either version 2.1 of the License, or (at your
- option) any later version.
+Files: Theme/*
+Copyright: Copyright (C) 2013  Eugenio Paolantonio <me@medesimo.eu>
+           Copyright (C) 2013  Rafa Cobreros
+License: GPL-3+
+ This program is free software; you can redistribute it
+ and/or modify it under the terms of the GNU General Public
+ License as published by the Free Software Foundation; either
+ version 3 of the License, or (at your option) any later
+ version.
  .
- This library is distributed in the hope that it will be useful, but WITHOUT
- ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
- FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public License
- for more details.
+ This program is distributed in the hope that it will be
+ useful, but WITHOUT ANY WARRANTY; without even the implied
+ warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+ PURPOSE.  See the GNU General Public License for more
+ details.
  .
- You should have received a copy of the GNU Lesser General Public
- License along with this library; if not, write to the
- Free Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
- 02110-1301  USA.
+ You should have received a copy of the GNU General Public
+ License along with this package; if not, write to the Free
+ Software Foundation, Inc., 51 Franklin St, Fifth Floor,
+ Boston, MA  02110-1301 USA
  .
- See /usr/share/common-licenses/LGPL-2.1 on your debian system.
+ On Debian systems, the full text of the GNU General Public
+ License version 2 can be found in the file
+ `/usr/share/common-licenses/GPL-3'.
+ 
+Files: Icons/*
+Copyright: Copyright (C) 2013 Eugenio Paolantonio <me@medesimo.eu>
+           Copyright (C) 2010-2011 John Green
+           Copyright (C) 2010-2011 Matthieu James
+License: GPL-3+
+ This program is free software; you can redistribute it
+ and/or modify it under the terms of the GNU General Public
+ License as published by the Free Software Foundation; either
+ version 3 of the License, or (at your option) any later
+ version.
+ .
+ This program is distributed in the hope that it will be
+ useful, but WITHOUT ANY WARRANTY; without even the implied
+ warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR
+ PURPOSE.  See the GNU General Public License for more
+ details.
+ .
+ You should have received a copy of the GNU General Public
+ License along with this package; if not, write to the Free
+ Software Foundation, Inc., 51 Franklin St, Fifth Floor,
+ Boston, MA  02110-1301 USA
+ .
+ On Debian systems, the full text of the GNU General Public
+ License version 2 can be found in the file
+ `/usr/share/common-licenses/GPL-3'.

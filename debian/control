@@ -9,7 +9,8 @@ Homepage: http://launchpad.net/semplice
 
 Package: semplice-artwork
 Architecture: all
-Depends: semplice-artwork-wallpapers, semplice-artwork-theme, semplice-artwork-login
+Depends: semplice-artwork-wallpapers, semplice-artwork-theme,
+ semplice-artwork-login, semplice-artwork-icons
 Description: Semplice System Artwork metapackage
  This package depends on the default artwork
  of the Semplice Project.
@@ -23,11 +24,13 @@ Description: Semplice System default Wallpapers
 
 Package: semplice-artwork-theme
 Architecture: all
-Depends: gnome-brave-icon-theme, gnome-themes-standard, gtk2-engines-pixbuf, gtk2-engines-murrine, gtk3-engines-unico, ttf-droid
+Depends: gtk2-engines-pixbuf, gtk2-engines-murrine, gtk3-engines-unico,
+ ttf-droid
 Recommends: dmz-cursor-theme
 Description: Semplice System GTK+ and openbox themes
  This package contains:
   * SempliceNight: default theme based on MediterraneanNight.
+  * SempliceDarkest: dark theme based on MediterraneanDarkest.
 
 Package: semplice-artwork-login
 Architecture: all
@@ -42,3 +45,10 @@ Depends: gnome-icon-theme-symbolic, semplice-artwork-login
 Recommends: gdm3
 Description: Semplice System GDM3 artwork
  This package contains the artwork needed by GDM3.
+
+Package: semplice-artwork-icons
+Architecture: all
+Depends: faenza-darkest-icon-theme
+Description: Semplice System Icon theme
+ This package contains the Faenza-Semplice icon theme, an
+ Icon theme based on Faenza-Cupertino.
