@@ -1,3 +1,10 @@
+semplice-artwork (4.0.0) unstable; urgency=low
+
+  * Theme/SempliceNight: added xfce4-notifyd theme.
+  * Added final atom wallpaper (made by Luca).
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 26 Apr 2013 18:51:46 +0200
+
 semplice-artwork (3.20.0) unstable; urgency=low
 
   * Theme: Updated SempliceNight and added SempliceDarkest.
