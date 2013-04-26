@@ -20,7 +20,7 @@ Architecture: all
 Description: Semplice System default Wallpapers
  This package contains the Semplice System default wallpapers.
  Actually, it contains:
-  * pulse: the default wallpaper.
+  * atom: the default wallpaper.
 
 Package: semplice-artwork-theme
 Architecture: all
