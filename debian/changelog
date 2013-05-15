@@ -1,3 +1,10 @@
+semplice-artwork (4.0.1) unstable; urgency=low
+
+  * debian/control: semplice-artwork-theme: depend on
+    fonts-droid instead of ttf-droid.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Wed, 15 May 2013 20:25:56 +0200
+
 semplice-artwork (4.0.0) unstable; urgency=low
 
   * Theme/SempliceNight: added xfce4-notifyd theme.
