@@ -25,7 +25,7 @@ Description: Semplice System default Wallpapers
 Package: semplice-artwork-theme
 Architecture: all
 Depends: gtk2-engines-pixbuf, gtk2-engines-murrine, gtk3-engines-unico,
- ttf-droid
+ fonts-droid
 Recommends: dmz-cursor-theme
 Description: Semplice System GTK+ and openbox themes
  This package contains:
