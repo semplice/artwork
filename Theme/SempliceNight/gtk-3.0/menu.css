@@ -96,6 +96,7 @@
 .menubar.menuitem  {
     border-radius: 0px;
     border-width: 0px;
+    background: transparent;
 }
 
 .menubar.menuitem:hover,
@@ -111,6 +112,7 @@
 .menubar .menuitem {
     color: @theme_fg_dark_color;
     text-shadow: 1px 1px @theme_shadow_dark_color;
+    background: transparent;
 }
 
 Genericmenuitem .menuitem *,
@@ -140,9 +142,10 @@ DbusmenuGtkMenu .menuitem,
 .menuitem {
     -GtkMenuItem-arrow-scaling: 0.7;
 
-    padding: 2px 4px;
+    padding: 3px 7px;
 	border-radius: 0px;
 
+    background: transparent;
 
     color: @menu_fg_dark_color;
     text-shadow: 1px 1px @menu_shadow_dark_color;
@@ -373,6 +376,6 @@ DbusmenuGtkMenu .menuitem .accelerator:insensitive,
     border-image: none;
     border-width: 1px 1px 0px 1px;
     border-color: shade(@button_border, 1.30);
-    border-style: solid;
+    border-style: none;
 }
 

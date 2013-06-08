@@ -12,22 +12,22 @@
     border-width: 1px;
 	border-radius: 0px;
     border-top-color: 		shade(@notebook_border, 1.00);
-    border-left-color: 		shade(@notebook_border, 1.15);
-    border-right-color: 	shade(@notebook_border, 1.15);
-    border-bottom-color: 	shade(@notebook_border, 1.20);
+    border-left-color: 		shade(@notebook_border, 1.00);
+    border-right-color: 	shade(@notebook_border, 1.00);
+    border-bottom-color: 	shade(@notebook_border, 1.00);
 	border-image: none;
 
     -GtkWidget-focus-line-width: 0;
 
     -GtkNotebook-tab-overlap: 2;
-    -GtkNotebook-tab-curvature: 1;
+    -GtkNotebook-tab-curvature: 0;
 }
 
 .notebook tab {
     padding: 4px 4px 4px;
     background-color: 	shade(@bg_color, 0.90);
 
-    border-width: 1px 1px 0px 1px;
+    border-width: 1px 1px 1px 1px;
     border-style: solid; 
 	border-radius: 0px;
 	border-color: shade(@notebook_border, 1.00);
