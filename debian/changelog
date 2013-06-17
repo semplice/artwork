@@ -1,3 +1,10 @@
+semplice-artwork (4.70.0) devel; urgency=low
+
+  * Theme/SempliceNight: new colors
+  * Added gbp.conf for the devel cycle.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Mon, 17 Jun 2013 20:00:19 +0200
+
 semplice-artwork (4.0.2) unstable; urgency=low
 
   * Theme: fixes for GTK+3.8 compatibility
