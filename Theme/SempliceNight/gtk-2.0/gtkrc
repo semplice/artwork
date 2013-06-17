@@ -1,6 +1,6 @@
 gtk-color-scheme = "base_color:#D8D8D8\nbg_color:#C6C6C6"
 gtk-color-scheme = "text_color:#242424\nfg_color:#363636"
-gtk-color-scheme = "selected_bg_color:#4a6787\nselected_fg_color:#ffffff"
+gtk-color-scheme = "selected_bg_color:#0F6094\nselected_fg_color:#ffffff"
 gtk-color-scheme = "tooltip_bg_color:#080808\ntooltip_fg_color:#ffffff\nlink_color:#191D21"
 
 gtk-color-scheme = "theme_bg_dark_color:#383838\ntheme_fg_dark_color:#cbcccd\ntheme_text_dark_color:#dcddde"
@@ -116,7 +116,7 @@ style "default" {
 		border_shades       = {1.0, 0.9}
 		colorize_scrollbar	= TRUE
 		contrast			= 0.8
-		default_button_color	= shade (1.28, @selected_bg_color)
+		default_button_color	= shade (1.00, @bg_color)
 		comboboxstyle 		= 0			# 0 = normal combobox, 1 = colorized combobox button		
 		expanderstyle		= 0			# Treview expander (triangulo)
 		focusstyle			= 3 # 0 to disable focus drawing. 
