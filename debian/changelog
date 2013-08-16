@@ -1,3 +1,10 @@
+semplice-artwork (4.90.0) devel; urgency=low
+
+  * Fixed some artifacts in the GTK+3 theme.
+  * Icons: Added 64x64 and 96x96 icons.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Fri, 16 Aug 2013 23:19:22 +0200
+
 semplice-artwork (4.70.0) devel; urgency=low
 
   * Theme/SempliceNight: new colors
