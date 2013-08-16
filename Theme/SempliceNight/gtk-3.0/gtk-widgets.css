@@ -781,6 +781,7 @@ GtkLevelBar.vertical {
     border-width: 1px;
 	border-radius: 0px;
     border-style: solid;
+    background: transparent;
     border-color: shade (@theme_bg_color, 0.85);
 	border-top-color:       shade(@notebook_border, 1.25);
     border-left-color: 		shade(@notebook_border, 1.25);
@@ -3351,6 +3352,7 @@ GtkOverlay.osd {
 .notebook {
     padding: 0px;
 
+	background: transparent;
 	background-color: shade(@theme_bg_color, 0.97);
 
     /* background and border-bottom */
