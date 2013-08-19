@@ -1209,6 +1209,23 @@ GtkHandleBox,
 
 }
 
+GtkHandleBox:insensitive,
+.toolbar {
+    padding: 2px 4px;
+/*    background-image: -gtk-gradient (linear,
+                                     left top, left bottom,
+                                     from (shade(@toolbar_gradient_base, 1.00)),
+                			         color-stop (0.40, shade(@toolbar_gradient_base, 1.00)),
+                                     to   (shade(@toolbar_gradient_base, 1.00)));
+*/
+    background-color: @toolbar_gradient_base;
+    border-width: 0 0 1px 0;
+    border-radius: 0px;
+    border-style: solid;
+    border-bottom-color: shade(@toolbar_gradient_base, 0.90);
+    color: @toolbar_fg_color;
+}
+
 /********************
  * Menubar Toolbars *
  ********************/
