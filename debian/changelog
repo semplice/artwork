@@ -1,3 +1,11 @@
+semplice-artwork (5.0.0) unstable; urgency=low
+
+  * Theme: fixed rendering issues on synaptic's toolbar when insensitive.
+  * Added Semplice 5's wallpaper, thanks to Luca as always.
+  * debian/gbp.conf: restored master-worthy config.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Thu, 05 Sep 2013 00:06:39 +0200
+
 semplice-artwork (4.90.0) devel; urgency=low
 
   * Fixed some artifacts in the GTK+3 theme.
