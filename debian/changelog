@@ -1,4 +1,4 @@
-semplice-artwork (5.20.0) unstable; urgency=low
+semplice-artwork (5.20.0) devel; urgency=low
 
   * Hey, we are in devel! ;)
   * semplice-artwork-theme: depend on fonts-opensans.
