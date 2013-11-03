@@ -1,3 +1,10 @@
+semplice-artwork (5.20.0) unstable; urgency=low
+
+  * Hey, we are in devel! ;)
+  * semplice-artwork-theme: depend on fonts-opensans.
+
+ -- Eugenio Paolantonio (g7) <me@medesimo.eu>  Sun, 03 Nov 2013 15:16:18 +0100
+
 semplice-artwork (5.0.0) unstable; urgency=low
 
   * Theme: fixed rendering issues on synaptic's toolbar when insensitive.
