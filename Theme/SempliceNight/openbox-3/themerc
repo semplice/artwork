@@ -82,4 +82,4 @@ window.inactive.label.text.color: #BBBBBB
 window.inactive.label.text.font: shadow=y:shadowtint=00:shadowoffset=0
 window.inactive.title.bg: Solid Flat
 window.inactive.title.bg.color: #4D4D4D
-window.label.text.justify: Left
+window.label.text.justify: Center
