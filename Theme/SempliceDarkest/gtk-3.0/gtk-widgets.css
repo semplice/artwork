@@ -78,6 +78,10 @@ GtkWindow {
     color: @theme_fg_color;
 }
 
+GtkBox {
+	background-color: transparent;
+}
+
 * {
     /* inherit the color from parent by default */
     color: inherit;
